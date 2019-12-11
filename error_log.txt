@@ -1,0 +1,4 @@
+Files file1.xml and https://firstqtooltest.s3.eu-west-2.amazonaws.com/file2.xml dont match 
+Files file1.xml and https://firstqtooltest.s3.eu-west-2.amazonaws.com/file2.xml dont match 
+Files file1.xml and https://firstqtooltest.s3.eu-west-2.amazonaws.com/file2.xml dont match - 2019-12-11 14:53:12.163750 
+Files file1.xml and https://firstqtooltest.s3.eu-west-2.amazonaws.com/file2.xml dont match - 2019-12-11 16:52:13.754523 
