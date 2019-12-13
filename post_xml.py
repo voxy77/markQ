@@ -82,7 +82,6 @@ def main(file):
     object = s3.Bucket(test_bucket_name).Object(file)
     object.Acl().put(ACL='public-read')
 
-
 if __name__ == '__main__':
     main()
 
