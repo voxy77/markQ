@@ -3,11 +3,16 @@ import os
 import xmltodict, requests
 from datetime import datetime
 
-def files_to_send(): # this function is used to get a list of all the files that we want to send from the 'files' directory.
+def set_working_dir():
 
     # set the 'files' sub-folder as the current working directory (cwd)
     cwd = os.chdir('./files')
     cwd = os.getcwd()
+    return cwd
+
+def files_to_send(): # this function is used to get a list of all the files that we want to send from the 'files' directory.
+
+    cwd = set_working_dir()
 
     # creates an empty list to store all the files in
     total_files=[] # create a list that can store the file name values
