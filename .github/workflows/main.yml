@@ -20,3 +20,4 @@ jobs:
       - name: get-name
         run: |
           echo "hello"
+          aws s3 cp allure-report s3://myallurebucket --recursive
