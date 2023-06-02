@@ -1,0 +1,22 @@
+name: Allure To S3
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+jobs:
+  send_folder:
+    name: send command
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+      pull-requests: read
+      checks: write
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: get-name
+        run: |
+          echo "hello"
