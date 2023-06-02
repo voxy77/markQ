@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Jun 02 16:14:33 UTC 2023","Fri Jun 02 16:14:33 UTC 2023","0","","test","","","","test_CKoutput[data1]",""
+"skipped","Fri Jun 02 16:14:33 UTC 2023","Fri Jun 02 16:14:33 UTC 2023","0","","test","","","","test_CKoutput[data2]",""
+"passed","Fri Jun 02 16:14:33 UTC 2023","Fri Jun 02 16:14:33 UTC 2023","0","","test","","","","test_CKoutput[data0]",""
